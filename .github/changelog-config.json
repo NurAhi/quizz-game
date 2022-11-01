@@ -1,0 +1,32 @@
+{
+  "header_prefix": "",
+  "commit_changelog": true,
+  "comment_changelog": true,
+  "pull_request_title_regex": ".",
+  "group_config": [
+    {
+      "title": "Bug fixes",
+      "labels": ["bug"]
+    },
+    {
+      "title": "New features",
+      "labels": ["feature"]
+    },
+    {
+      "title": "Code improvements",
+      "labels": ["refactor", "enhancement", "spike"]
+    },
+    {
+      "title": "Tests improvements",
+      "labels": ["test"]
+    },
+    {
+      "title": "Documentation updates",
+      "labels": ["documentation"]
+    },
+    {
+      "title": "Devops, CI/CD features",
+      "labels": ["ci", "devops"]
+    }
+  ]
+}
