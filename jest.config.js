@@ -24,7 +24,7 @@ module.exports = {
   },
   collectCoverageFrom: ['**/*.{ts,tsx}'],
   coverageDirectory: '<rootDir>/reports/coverage',
-  coveragePathIgnorePatterns: ['.interface.ts', 'index.ts', '.mock.ts', '.stories.tsx', '.d.ts'],
+  coveragePathIgnorePatterns: ['.interface.ts', 'index.ts', '.mock.ts', '.d.ts'],
   coverageReporters: ['json', 'lcov', ['text', { skipFull: true }]],
   coverageThreshold: {
     global: {
