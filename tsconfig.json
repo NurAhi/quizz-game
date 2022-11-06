@@ -12,17 +12,12 @@
     "moduleResolution": "node",
     "noEmit": true,
     "noFallthroughCasesInSwitch": true,
-    "paths": {
-      "@w-contact-flow/*": ["contact-flow/*"],
-      "@w-constants/*": ["constants/*"],
-      "@w-shared/*": ["shared/*"],
-      "@w-layout/*": ["layout/*"],
-      "@w-types/*": ["types/*"]
-    },
+    "paths": {},
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": false,
-    "target": "es6"
+    "target": "es6",
+    "incremental": true
   },
   "exclude": ["node_modules", "cypress.config.js"],
   "include": [
